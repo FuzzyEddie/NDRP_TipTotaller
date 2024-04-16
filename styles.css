@@ -1,0 +1,46 @@
+.btn {
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  background: #3498db;
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+  border: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  text-decoration: none;
+}
+
+.field {
+  padding: 5px 10px 5px 10px;
+  border: none;
+  background-color: lightgray;
+}
+
+table {
+  border-collapse: collapse;
+  margin-top: 10px;
+  border: 0px;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+th, td {
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  text-align: right;
+  width: 75px;
+  padding: 2px 5px;
+}
+
+th {
+  background: #3498db;
+  color: white;
+  text-align: right;
+}
+
+body {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
