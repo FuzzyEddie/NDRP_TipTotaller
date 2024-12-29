@@ -5,7 +5,7 @@ function tipTotaller(input) {
   }).map((line) => {
     let name = line.match(/Sale by\s?-? (\S* \S*)/)[1]
     let tip = 0
-    let tipMatch = line.match(/[Tip:|Tip Amount] \$(\d*)/)
+    let tipMatch = line.match(/(?:Tip:|Tip Amount) \$(\d*)/)
     console.log(tipMatch)
     if (tipMatch) tip = parseInt(tipMatch[1])
     let income = parseFloat(line.match(/\$([0-9|,]*?\.\d\d)/)[1].replace(',', ''))
